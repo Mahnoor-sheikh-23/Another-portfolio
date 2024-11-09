@@ -1,0 +1,215 @@
+.second-div-journey {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h2-styles {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+    line-height: 44px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+
+/* styling for cards.js file  */
+.tabs-styling {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabslist-styling {
+    max-width: max-content;
+    margin-bottom: 30px;
+}
+
+/* styling for card.js file  */
+.card-styling {
+    width: 80%;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    position: sticky;
+    top: 19px;
+
+}
+
+.card2-styling {
+    width: 100%;
+    height: 270px;
+    border: 1px solid #79d3cc;
+    background-color: #f4ffff;
+    border-radius: 8px;
+    margin: 14px;
+
+}
+
+.card3-styling {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.card4-styling {
+    height: 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card5-styling {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.h3-of-card {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.card6-styling {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card6-styling-image {
+    object-fit: contain;
+
+}
+
+.card6-styling-under-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+
+}
+
+.render-logo-div {
+    position: relative;
+    width: 300px;
+    height: 38px;
+
+}
+
+.after-logo-render {
+    width: 100%;
+}
+
+.reder-icons {
+    width: max-content;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reader-icons-real {
+    font-size: 3rem;
+    color: var(--primary);
+
+}
+
+.after-logo-render-h3 {
+    display: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary);
+
+}
+
+.after-logo-render-p {
+    font-size: 16px;
+    max-width: 660px;
+}
+
+
+@media (min-width: 768px) {
+
+    .card5-styling {
+        padding-left: 50px;
+
+    }
+
+    .card6-styling {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+
+    }
+}
+
+
+
+
+@media (min-width: 1024px) {
+
+    /* This is the 'lg' breakpoint in Tailwind (1024px) */
+
+    .card4-styling {
+        height: 68px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .card6-styling {
+        justify-content: start;
+    }
+
+    .card6-styling-under-div {
+        flex-direction: row;
+        align-items: start;
+        text-align: left;
+        gap: 10;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+    .reder-icons {
+        width: 300px;
+    }
+
+    .render-logo-div {
+        height: 44px;
+
+    }
+
+    .after-logo-render {
+        border-left: 1px solid #c5cdda;
+        padding-left: 3rem;
+
+    }
+
+    .after-logo-render-h3 {
+        display: flex;
+
+    }
+}

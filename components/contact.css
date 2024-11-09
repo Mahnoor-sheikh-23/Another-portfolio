@@ -1,0 +1,175 @@
+.first-div-of-contact {
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+}
+
+.second-div-of-contact {
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+}
+.third-div-of-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 180;
+
+    
+}
+.fourth-div-of-contact{
+    flex: 1;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.fifth-div-of-contact {
+    display: flex;
+    gap: 8;
+}
+
+.sixth-div-of-contact {
+    flex: 1
+}
+
+.text-style-contact {
+    font-size: 36px;
+    letter-spacing: -0.02em;
+    line-height: 44px;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 3rem;
+    text-align: center;
+
+}
+
+/* actual form work start from here  */
+.label-style {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+.span-of-label {
+    color: #79d3cc;
+
+}
+
+.input- {
+    width: 100%;
+    outline: none;
+    border: 1px solid #d0d5dd;
+    border-radius: 0.5rem;
+    border-color: #79d3cc;
+    color: #667085;
+    height: 3rem;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.form-styling {
+    display: flex;
+    flex-direction: column;
+    gap: 6;
+    width: 100%;
+    max-width: 480px;
+
+}
+
+/* sumbit bttn */
+.sumbit-btn {
+    background-color: #79d3cc;
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+    height: 3rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2;
+}
+
+.facheck-circle-styling{
+    position: absolute;
+    color: white;
+    font-size: 1.125rem;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.button--text{
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+
+/* image */
+.image-section-of-contact{
+object-fit: cover;
+}
+.image-div-contact{
+    display: none;
+    position: relative;
+    width: 577px;
+    height: 664px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+}
+
+/* FOOTERN WORK  */
+footer{
+    padding-top: 3rem;   
+    padding-bottom: 3rem;
+    background-color: var(--primary);
+}
+.footer-firstdiv{
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-secnd-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+}
+.footer-third-div{
+    color: white;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+@media (min-width: 1280px) {
+    .first-div-of-contact {
+        padding-top: 3rem;
+       
+    }
+
+    .text-style-contact {
+        text-align: left;
+    }
+    .image-div-contact{
+        display: flex;
+    }
+    .third-div-of-contact{
+        flex-direction: row;
+    }
+    .fourth-div-of-contact{
+        margin:  0 0 ;
+    }
+    .footer-secnd-div{
+        flex-direction: row;
+        gap: 900;
+        white-space: nowrap;
+    }
+}

@@ -1,0 +1,129 @@
+/* FOR STATS  */
+.stats-section {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+
+}
+
+/* FOR STATS ITEMS  */
+.first-div-of-stats-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.second-div-of-stats-items {
+    font-family: var(--font-bebas);
+    color: var(--primary);
+    font-size: 36px;
+    line-height: 1;
+    white-space: nowrap;
+
+}
+
+.text-of-stats-items {
+    font-size: 14px;
+    white-space: nowrap;
+    margin-right: 2px;
+}
+
+/* FOR SERVICE ALSO WORK STARS FROM HERE  */
+
+.first-div-section {
+    position: relative;
+    z-index: 40;
+    display: flex;
+
+}
+
+
+.second-div-section {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.section-ul {
+    position: relative;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: -4rem;
+}
+
+.sections-li {
+
+    list-style: none;
+    background-color: white;
+    box-shadow: 0 0px 39px -4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    max-width: 360px;
+    border-radius: 0.5rem;
+
+}
+
+.service-image {
+    margin-bottom: 16px;
+    user-select: none;
+}
+
+.sections-h3-tag {
+    font-size: 20px;
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 6px;
+
+}
+
+.sections-p-tag {
+    font-size: 15px;
+}
+
+
+
+
+
+/* FOR MD SCREEN WIDTH */
+@media (min-width: 768px) {
+    .sections-li {
+        max-width: none;
+    }
+
+    .section-ul {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/* FOR XL MEANS FULL LAPTOP SCREEN  */
+@media (min-width: 1280px) {
+    .stats-section {
+        justify-content: flex-start;
+        margin-left: 0;
+        margin-right: 0;
+        width: 370px;
+        gap: 0;
+
+    }
+
+    .first-div-of-stats-items {
+        flex: 1;
+    }
+
+    .second-div-of-stats-items {
+        font-size: 48px;
+
+    }
+
+    .section-ul {
+        place-items: stretch;
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

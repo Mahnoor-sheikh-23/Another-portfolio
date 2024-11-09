@@ -1,0 +1,156 @@
+#HOME {
+    height: 800px;
+    position: relative;
+    background-color: rgba(52, 144, 220, 0.1);
+}
+
+.another-container {
+    /* here i have made extra changes  */
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+.relatives {
+    position: relative;
+    z-index: 50;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+.spaan {
+    color: #79d3cc;
+}
+
+.type-animation {
+    margin-left: 8px;
+
+}
+
+.h1-heading {
+    margin-bottom: 0.5rem;
+    max-width: 320px;
+
+}
+
+.buttn {
+    margin-bottom: 2rem;
+    display: inline-block;
+
+}
+
+.p-lead {
+    max-width: 476px;
+    margin-bottom: 1.75rem;
+}
+
+/* stats */
+
+/* image */
+.picture-girl {
+    object-fit: contain;
+}
+
+.main-div-image {
+    display: none;
+    width: 55vw;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #79d3cc;
+
+
+}
+
+.under-div-image {
+    position: absolute;
+    width: 558px;
+    height: 642px;
+    bottom: 0px;
+    z-index: 5;
+    left: 6.5vw;
+}
+
+/* for xl screen */
+@media (min-width: 1280px) {
+    section {
+        background-color: white;
+    }
+
+    .another-container {
+        justify-content:center;
+    }
+
+    .relatives {
+        max-width: 768px;
+        align-items: flex-start;
+        text-align: left;
+        margin-right: 430px;
+
+    }
+
+    .type-animation {
+        margin-left: 16px;
+    }
+
+    .h1-heading {
+        max-width: none;
+    }
+
+    .main-div-image {
+        display: flex;
+    }
+}
+
+
+
+
+
+
+/* ROTATING SHAPE STARTED FROM HERE  */
+.rotating-icon1 {
+    position: absolute;
+    top: 600px;
+    left: 3vw;
+}
+
+.rotating-icon2 {
+    position: absolute;
+    top: 240px;
+
+}
+
+.rotating-icon3 {
+    position: absolute;
+    top: 480px;
+
+}
+
+
+.icon1 {
+    font-size: 30px;
+    color: white;
+}
+
+
+@media (min-width: 1280px) {
+    .rotating-icon2 {
+        left: 30vw;
+        position: absolute;
+    }
+
+    .rotating-icon3 {
+        left: 40vw;
+        position: absolute;
+    }
+}

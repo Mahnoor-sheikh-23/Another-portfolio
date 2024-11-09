@@ -1,0 +1,108 @@
+header {
+    width: 100%;
+    position: absolute;
+    padding-top: 2rem; 
+    padding-bottom: 2rem;
+    z-index: 30;
+}
+.father-of-all-div{
+    display: flex;
+    justify-content: center;
+}
+.containers {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.under-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+
+/* LoGO STYLING  */
+.logos{
+    font-family: var(--font-bebas);
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    text-decoration: none   ;
+}
+
+
+
+
+/* Nav STYLINGS  */
+
+.div-of-nav{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.container-style{
+    display:none;
+
+}
+.list-style{
+    display: flex;
+    gap: 24px;
+}
+.link-style{
+    color: var(--primary);
+    font-family: var(--font-bebas);
+    font-size: 1.125rem;
+    transition: all 0.3s; 
+    letter-spacing: 1.4px;
+    cursor: pointer;
+    z-index: 1; 
+}
+
+
+/* SOCIALS ICONS STYLING START FROM HERE  */
+
+.containers-styles{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.icon-styles{
+    font-size: 1rem; 
+    width: 32px;
+    height: 32px;
+    background-color: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+}
+
+
+
+
+@media (min-width: 1024px) {
+
+   
+    .under-containers{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+
+@media (min-width: 1280px) {
+
+    /* xl breakpoint for screens 1280px and up */
+    header{
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .container-style{
+        display: flex;
+    }
+   
+}

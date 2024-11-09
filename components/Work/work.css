@@ -1,0 +1,158 @@
+.first-div-of-work {
+    padding-top: 96px;
+    min-height: 1000px;
+}
+
+.tabs-work-coomp {
+    /* width: 100%; */
+    width: 80%;
+    margin: 0 auto; 
+    /* making changes here  */
+    display: flex;
+    flex-direction: column;
+}
+
+.under-tabs-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.ainmated-div-work {
+    font-family: var(--font-bebas);
+    font-size: 45px;
+    line-height: 1;
+    margin-bottom: 30px;
+    color: var(--primary);
+}
+
+.tablist-div {
+    max-width: max-content;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 4;
+
+
+}
+
+.tab-Listwork {
+    text-transform: capitalize;
+    width: 120px;
+}
+
+.tabscontent-div-in-work-com {
+    width: 100%;
+}
+
+.tabscontent-div-in-work- {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+
+}
+
+.load-more-button {
+    border-radius: 0.5rem;
+    height: 3rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background-color: #79d3cc;
+    border: none;
+    color: white;
+}
+
+.load-more-button-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    
+}
+
+
+
+/* work item work start from here  */
+.workItem-first-div {
+    width: 100%;
+    height: 300px;
+    padding: 32px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+
+.badge-of-workItems {
+    background-color: var(--primary);
+    font-size: 16px;
+    z-index: 40;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    text-transform: capitalize;
+
+}
+
+/* iamges */
+.actual-image-of-wrok-sections {
+    object-fit: cover;
+
+}
+
+.group:hover .actual-image-of-wrok-sections {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+
+}
+
+.button-of-work {
+    background-color: #7edad2;
+    color: white;
+    border-radius: 9999px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-45deg);
+    transition: all 0.5s ease;
+}
+
+.group:hover .button-of-work {
+    transform: rotate(0);
+}
+
+
+/* md screen */
+
+@media (min-width: 768px) {
+    .tablist-div {
+        flex-direction: row;
+        gap: 0;
+    }
+}
+
+
+/* lg screen */
+@media (min-width: 1280px) {
+    .under-tabs-div {
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .ainmated-div-work {
+        margin-bottom: 0;
+    }
+
+    .tabscontent-div-in-work- {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
