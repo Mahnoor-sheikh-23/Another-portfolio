@@ -72,12 +72,12 @@ const Contact = () => {
                 {/* first name  */}
                 <div className='sixth-div-of-contact'>
                   <label className='label-style' htmlFor='firstname'>First Name<span className='span-of-label'>*</span></label>
-                  <input onChange={handleChange} type='text' id='firstname' name='firstName' value={formData.firstName} className='input-' placeholder='First Name' required />
+                  <input onChange={handleChange} type='text' id='firstname' name='firstName' value={formData.firstName} className='input- ' placeholder='First Name' required />
                 </div>
                 {/* last name  */}
                 <div className='sixth-div-of-contact'>
                   <label className='label-style' htmlFor='lastname'>Last Name<span className='span-of-label'>*</span></label>
-                  <input onChange={handleChange} type='text' id='lastname' name='lastName' value={formData.lastName} className='input-' placeholder='Last Name' required />
+                  <input onChange={handleChange} type='text' id='lastname' name='lastName' value={formData.lastName} className='input- ' placeholder='Last Name' required />
                 </div>
 
               </div>

@@ -22,7 +22,7 @@ const Home = () => {
 
 
   return (
-    <>
+    <div >
       <Hero />
       <FixedMenu />
       <Services />
@@ -32,7 +32,7 @@ const Home = () => {
       {/* <Testimonial/> */}
       <Contact />
       <Footer/>
-    </>
+    </div>
   )
 }
 

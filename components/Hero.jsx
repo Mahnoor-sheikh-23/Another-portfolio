@@ -33,7 +33,7 @@ const Hero = () => {
                         Delivering powerful, custom Websites that blend asthetics with performance.
                     </p>
                     <ScrollLink to='contact' smooth>
-                        <button className='btn btn-accent buttn'>Contact me</button>
+                        <button className='btn btn-accent buttn' onClick={() => window.location.href = 'mailto:mahnooradnan479@gmail.com'}>Contact me</button>
                     </ScrollLink>
                     {/* stats */}
                     <Stats />

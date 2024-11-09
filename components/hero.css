@@ -3,7 +3,11 @@
     position: relative;
     background-color: rgba(52, 144, 220, 0.1);
 }
-
+.father-of-all-div{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
 .another-container {
     /* here i have made extra changes  */
     margin-left: auto;

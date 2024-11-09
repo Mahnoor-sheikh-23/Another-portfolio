@@ -19,7 +19,7 @@ const journey = [
   {
     type: "experience",
     company: "",
-    logoUrl: "https://media.istockphoto.com/id/1432996445/vector/coffin-icon-vector-design-template.jpg?s=612x612&w=0&k=20&c=1WzrsFiF3R5T5lPS_xa0okvdoeecK4BYbyUgTWGqj3c=",
+    logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOcngoRTKnV2O7SD7f-V89EiWw9J99MQEhOA&s",
     position: "Frontend developer",
     duration: "jan 2024 - Present",
     description: "Developed responsive websites with HTML , CSS and Javascript. Ensured seamless user experience"
@@ -35,7 +35,7 @@ const journey = [
   {
     type: "experience",
     company: "",
-    logoUrl: "https://media.istockphoto.com/id/1449539743/vector/three-linear-cubes-floating-in-the-air-impossible-3d-geometric-shape.jpg?s=612x612&w=0&k=20&c=7e_7lZa39lR9R2ZKpZbqZIeFBEl-Y8SQI7F7ZZndDXg=",
+    logoUrl: "https://www.dotsquares.com/img/mean-stack-inner.png",
     position: "Full Stack developer",
     duration: "Aug 2024",
     description: "Developed full-stack solutions usisng react and next.js integrated frontend and little bit backend knowledge"

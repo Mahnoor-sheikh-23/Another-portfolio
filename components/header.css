@@ -5,10 +5,7 @@ header {
     padding-bottom: 2rem;
     z-index: 30;
 }
-.father-of-all-div{
-    display: flex;
-    justify-content: center;
-}
+
 .containers {
     margin-left: auto;
     margin-right: auto;
