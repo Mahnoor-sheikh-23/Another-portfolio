@@ -39,7 +39,7 @@ const About = () => {
                 </motion.div>
                 <div className='after-circle-div'>
                   <div className='-div'>10+</div>
-                  <div className='--div'>Years of <br />Experience</div>
+                  <div className='--div'>Years of <br />Months</div>
                 </div>
               </div>
             </div>
