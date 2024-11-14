@@ -11,7 +11,7 @@ const journey = [
   {
     type: "experience",
     company: "",
-    logoUrl: "https://png.pngtree.com/png-vector/20220606/ourmid/pngtree-censor-blur-effect-texture-for-face-or-nude-skin-png-image_4872592.png",
+    logoUrl: "/heroSectionImage/reader.png",
     position: "web developer",
     duration: "Jul 2022 - Present",
     description: "Built websites and web apps usisng Next.js , Tailwind CSS, and javascript . Worked on scalable, user-friendly solutions. "
@@ -19,7 +19,7 @@ const journey = [
   {
     type: "experience",
     company: "",
-    logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOcngoRTKnV2O7SD7f-V89EiWw9J99MQEhOA&s",
+    logoUrl: "/heroSectionImage/frontend.png",
     position: "Frontend developer",
     duration: "jan 2024 - Present",
     description: "Developed responsive websites with HTML , CSS and Javascript. Ensured seamless user experience"
@@ -27,7 +27,7 @@ const journey = [
   {
     type: "experience",
     company: "",
-    logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1qWUdj_R-mZhUzLc2v-VjmmdfncoDaHmB-A&s",
+    logoUrl: "/heroSectionImage/ux-image.png",
     position: "UI/UX  developer",
     duration: "Jul 2024 - Present",
     description: "Designs web interfaces with cross-browser compatibility and responsiveness. Delivered pixel-perfect designs"
@@ -35,7 +35,7 @@ const journey = [
   {
     type: "experience",
     company: "",
-    logoUrl: "https://www.dotsquares.com/img/mean-stack-inner.png",
+    logoUrl: "/heroSectionImage/full-stack.png",
     position: "Full Stack developer",
     duration: "Aug 2024",
     description: "Developed full-stack solutions usisng react and next.js integrated frontend and little bit backend knowledge"

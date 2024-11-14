@@ -4,6 +4,7 @@ import { FaCheckCircle } from "react-icons/fa";
 import AnimatedText from './AnimatedText';
 import { useForm, ValidationError } from "@formspree/react";
 import Image from 'next/image';
+import contactPicture from "../public/heroSectionImage/contact.jpeg"
 
 
 
@@ -116,7 +117,7 @@ const Contact = () => {
           </div>
           {/* image  */}
           <div className='image-div-contact'>
-            <Image src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrieq43qC-QhVyC9KLhf9aB5cZiJrAJDq8zQ&s"} quality={100} width={577} height={664} alt='' />
+            <Image src={contactPicture} quality={100} width={577} height={664} alt='' />
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import "../app/style/about.css";
 import AnimatedText from './AnimatedText';
 import girlPicture from "../public/heroSectionImage/girl.png";
+import irregularShape from "../public/heroSectionImage/irregularcircle.png"
 
 const About = () => {
   return (
@@ -31,7 +32,7 @@ const About = () => {
                     ease: "linear",
                     repeat: Infinity
                   }}>
-                  <Image src='https://static.vecteezy.com/system/resources/thumbnails/021/971/708/small_2x/color-blob-banner-clip-art-free-png.png'
+                  <Image src={irregularShape}
                     width={160}
                     height={160}
                     alt=''

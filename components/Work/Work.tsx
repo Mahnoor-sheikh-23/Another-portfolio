@@ -6,45 +6,42 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../components/ui/ta
 import AnimatedText from '../AnimatedText';
 import WorkItem from './WorkItem';
 
-
-
-
 // sample data for projects
 const data = [
   {
     href: "https://jocular-croquembouche-f006b6.netlify.app/",
     category: "design",
-    img: "https://i.pinimg.com/736x/c8/10/2e/c8102eae704ac35a91ddadf60a671f99.jpg",
+    img: "/heroSectionImage/images.jpg",
     title: "Resume "
   },
   {
     href: "https://moni-resume.netlify.app/",
     category: "frontend",
-    img: "https://play-lh.googleusercontent.com/D31M2dnTJWWU5qPv-laNdg0-AB6cZr8yNe5pXyhWYf55n1fBj6E20DUrXSNbOyXIxkg",
+    img: "/heroSectionImage/resume.webp",
     title: "Resume Builder"
   },
   {
     href: "https://real-runtime-calculator.netlify.app/",
     category: "frontend",
-    img: "https://media.gettyimages.com/id/538508299/vector/accounting.jpg?s=612x612&w=gi&k=20&c=7lbC7ZDPl6rF9VteeSgNkJPmPwdugvlE7IFdz_QTsdQ=",
+    img: "/heroSectionImage/calculator_icon.svg",
     title: "Calculator "
   },
   {
     href: "https://comfy-lollipop-08e6b3.netlify.app/",
     category: "frontend",
-    img: "https://colorlib.com/wp/wp-content/uploads/sites/2/7_event-planner-websites.jpg",
+    img: "/heroSectionImage/vase-scaled.jpg",
     title: "Event Planner "
   },
   {
     href: "https://portfolio-website-of-mahnoor.netlify.app/",
     category: "frontend",
-    img: "https://mir-s3-cdn-cf.behance.net/project_modules/1400/77b5b783911401.5d4b03c198716.png",
+    img: "/heroSectionImage/portfolio.png",
     title: "Quantum Portfolio"
   },
   {
     href: "https://realtime-to-do.netlify.app/",
     category: "frontend",
-    img: "https://codingartistweb.com/wp-content/uploads/2021/02/To-Do-list-small-01.png",
+    img: "/heroSectionImage/to-do.jpeg",
     title: "To-Do List "
   },
   {
