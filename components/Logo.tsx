@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import "./header.css"
+// import "./header.css";
+import "../app/style/header.css";
 
 const Logo = ({ light = false }) => {
   // determine the text color based on the light props

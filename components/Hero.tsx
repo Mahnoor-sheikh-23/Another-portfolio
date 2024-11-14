@@ -3,8 +3,8 @@ import React from 'react';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { Link as ScrollLink } from "react-scroll"
-import './hero.css';
-import girlPicture from "@/public/heroSectionImage/girl.png";
+import "../app/style/hero.css";
+import girlPicture from "../public/heroSectionImage/girl.png";
 
 // importing components 
 import RotatingShape from './RotatingShape';

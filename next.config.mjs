@@ -4,10 +4,8 @@ const nextConfig = {
         domains: [
             "static.vecteezy.com",
             "encrypted-tbn0.gstatic.com",
-            "encrypted-tbn0.gstatic.com",
             "img.freepik.com",
             "images.creativefabrica.com",
-            "media.istockphoto.com",
             "png.pngtree.com",
             "unblast.com",
             "st2.depositphotos.com",
@@ -21,7 +19,7 @@ const nextConfig = {
             "play-lh.googleusercontent.com",
             "mir-s3-cdn-cf.behance.net",
             "codingartistweb.com",
-            "www.dotsquares.com"
+            "www.dotsquares.com",
         ]
     }
 };

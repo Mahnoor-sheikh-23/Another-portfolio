@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import "./contact.css";
+import "../app/style/contact.css";
 import { FaCheckCircle } from "react-icons/fa";
 import AnimatedText from './AnimatedText';
 import { useForm, ValidationError } from "@formspree/react";
@@ -24,7 +24,7 @@ const Contact = () => {
   const [showIcons, setShowIcons] = useState(false);
 
   // handle input changes 
-  const handleChange = (e) => {
+  const handleChange = (e:React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value })
   }
@@ -54,7 +54,7 @@ const Contact = () => {
   }, [state.succeeded])
 
   // handle form sumbission 
-  const handlFormeSumbit = (e) => {
+  const handlFormeSumbit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     handleSumbit(formData); //call formspere's sumbit handler with form data 
   }
@@ -95,7 +95,7 @@ const Contact = () => {
               {/* message  fields  */}
               <div >
                 <label className='label-style' htmlFor='message'>Message<span className='span-of-label'>*</span></label>
-                <textarea onChange={handleChange} id='message' name='message' value={formData.message} className='textarea' rows="5" placeholder='Leave a message ...' required />
+                <textarea onChange={handleChange} id='message' name='message' value={formData.message} className='textarea' rows={5} placeholder='Leave a message ...' required />
                 <ValidationError prefix='Message' field='message' errors={state.errors} />
               </div>
               {/* sumbit button */}
@@ -116,7 +116,7 @@ const Contact = () => {
           </div>
           {/* image  */}
           <div className='image-div-contact'>
-            <Image  src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrieq43qC-QhVyC9KLhf9aB5cZiJrAJDq8zQ&s"} quality={100} width={577} height={664} alt=''/>
+            <Image src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrieq43qC-QhVyC9KLhf9aB5cZiJrAJDq8zQ&s"} quality={100} width={577} height={664} alt='' />
           </div>
         </div>
       </div>

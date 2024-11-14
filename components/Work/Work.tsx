@@ -2,7 +2,7 @@ import React from 'react';
 import "./work.css";
 import { useState } from 'react';
 import { motion, AnimatePresence } from "framer-motion";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../components/ui/tabs";
 import AnimatedText from '../AnimatedText';
 import WorkItem from './WorkItem';
 
@@ -26,7 +26,7 @@ const data = [
   {
     href: "https://real-runtime-calculator.netlify.app/",
     category: "frontend",
-    img: "https://images.creativefabrica.com/products/previews/2023/10/27/PKLLJ0Mdg/2XMZw3mgqDsi0ZafGASrC3SIy30-desktop.jpg",
+    img: "https://media.gettyimages.com/id/538508299/vector/accounting.jpg?s=612x612&w=gi&k=20&c=7lbC7ZDPl6rF9VteeSgNkJPmPwdugvlE7IFdz_QTsdQ=",
     title: "Calculator "
   },
   {

@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from "framer-motion";
-import "./about.css"
+import "../app/style/about.css";
 import AnimatedText from './AnimatedText';
-import girlPicture from "@/public/heroSectionImage/girl.png";
+import girlPicture from "../public/heroSectionImage/girl.png";
 
 const About = () => {
   return (

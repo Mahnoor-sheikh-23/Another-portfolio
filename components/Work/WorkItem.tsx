@@ -4,7 +4,16 @@ import Link from 'next/link';
 import { FiArrowRight } from "react-icons/fi";
 import { Badge } from '../ui/badge';
 
-const WorkItem = ({ href, category, img, title }) => {
+
+interface TypesOfWorkItems {
+  href : string ,
+  category : string,
+  img : string ,
+  title : string
+}
+
+
+const WorkItem: React.FC<TypesOfWorkItems> = ({ href, category, img, title }) => {
   return (
     <Link href={href} className='group'>
       <div className='workItem-first-div'>

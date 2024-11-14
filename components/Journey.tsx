@@ -1,5 +1,5 @@
 import React from 'react';
-import "./journey.css";
+import "../app/style/journey.css";
 import AnimatedText from './AnimatedText';
 import Cards from './cards/Cards';
 

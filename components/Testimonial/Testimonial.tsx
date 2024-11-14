@@ -1,10 +1,10 @@
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useState , useRef } from 'react';
 import "./testimoninal.css";
 import { ImQuotesLeft } from "react-icons/im";
-import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
+import { FiArrowLeft, FiArrowRight  } from "react-icons/fi";
 
 // import swipper react components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide  } from "swiper/react";
 // import swipper styles 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -50,19 +50,20 @@ const slides = [
   },
 ]
 
+
 const Testimonial = () => {
-  const [swiperRef, setSwiperRef] = useState(null);
-  // state to stoe the active slide index 
+  const swiperRef = useRef<any>(null);
   const [activeSlide, setActiveSlide] = useState(0);
-
-
   const handlePrevious = useCallback(() => {
-    swiperRef?.slidePrev()
-  }, [swiperRef])
-
+    if (swiperRef.current) {
+      swiperRef.current.slidePrev();
+    }
+  }, []);
   const handleNext = useCallback(() => {
-    swiperRef?.slideNext()
-  }, [swiperRef])
+    if (swiperRef.current) {
+      swiperRef.current.slideNext();
+    }
+  }, []);
 
   return (
     <div className='main-div-of-testimonial-comp'>
@@ -85,14 +86,14 @@ const Testimonial = () => {
             slidesPerView={1}
             spaceBetween={30}
             loop={true}
-            onSwiper={setSwiperRef}
+            onSwiper={(swiper) => (swiperRef.current = swiper)}
             breakpoints={{
               640: { slidesPerView: 1 },
               768: { slidesPerView: 2 },
               1024: { slidesPerView: 3 },
               1280: { slidesPerView: 4 },
             }}
-            onSlideChange={(swiper) => setActiveSlide(swiper.realIndex)}//update the active slide  index 
+            onSlideChange={(swiper) => setActiveSlide(swiper.realIndex)}
             modules={[Autoplay]}
             autoplay={{
               delay: 3000,

@@ -23,7 +23,11 @@ const socilas = [
     }
 ]
 
-const Socials = ({ containerStyles, iconStyles }) => {
+type SocialsProps = {
+    containerStyles?: string;
+    iconStyles?: string;
+  };
+const Socials: React.FC<SocialsProps> = ({ containerStyles, iconStyles }) => {
     return (
         <div className={containerStyles}>
             {socilas.map((item, index) => {

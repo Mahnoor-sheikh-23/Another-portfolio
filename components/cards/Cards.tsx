@@ -1,13 +1,13 @@
 import React from 'react';
 import Card from './Card';
-import "../journey.css"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import "../../app/style/journey.css";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../components/ui/tabs";
 import { motion, AnimatePresence } from 'framer-motion';
 
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaFigma } from "react-icons/fa";
 
 const journey = [
-  // experoence 
+  // experience 
   {
     type: "experience",
     company: "",

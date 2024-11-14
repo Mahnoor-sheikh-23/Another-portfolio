@@ -1,9 +1,21 @@
 import Image from 'next/image'
 import React from 'react';
-import "../journey.css";
-// import {chip} from "../../public/journey/head-with-ai-chip.zip";
+import "../../app/style/journey.css";
 
-const Card = ({
+interface CardINforamtion {
+  type : string , 
+  logoUrl? : string,
+  position? : string ,
+  duration? : string ,
+  description : string,
+  company? : string ,
+  institution?: string ,
+  qualification? : string ,
+  name? : string,
+  icon? : JSX.Element
+}
+
+const Card:React.FC<CardINforamtion> = ({
   type,
   logoUrl,
   position,
@@ -12,7 +24,8 @@ const Card = ({
   company,
   institution,
   qualification,
-  name, icon
+  name,
+   icon
 }) => {
   return (
     <div className='card-styling'>
@@ -43,7 +56,7 @@ const Card = ({
                   //render the logo for experince & education 
                   
                   <div className='render-logo-div'>
-                    <Image src={logoUrl} fill alt='' className='card6-styling-image' />
+                    <Image src={logoUrl || " "} fill alt='' className='card6-styling-image' />
                   </div>
                 )
               }

@@ -1,8 +1,5 @@
 "use client";
-import './header.css';
-// import { Link as ScrollLink } from "react-scroll";
-
-// impoeritng compomnets
+import "../app/style/header.css";
 import Logo from './Logo';
 import Nav from './Nav';
 import Socials from './Socials';
@@ -17,7 +14,8 @@ const Header = () => {
                     <Logo />
                     {/* nav & social */}
                     <div className='div-of-nav'>
-                        <Nav containerStyles="container-style" listStyles="list-style" linkStyles="link-style" />
+                        <Nav containerStyles="container-style" listStyles="list-style" linkStyles="link-style"  spy={true}/> 
+                        {/* here i have added spy  */}
                         <Socials containerStyles="containers-styles" iconStyles="icon-styles" />
                     </div>
                 </div>

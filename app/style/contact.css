@@ -153,6 +153,7 @@ footer{
 @media (min-width: 1280px) {
     .first-div-of-contact {
         padding-top: 3rem;
+        
        
     }
 
@@ -167,10 +168,14 @@ footer{
     }
     .fourth-div-of-contact{
         margin:  0 0 ;
+        
     }
     .footer-secnd-div{
         flex-direction: row;
         gap: 900;
         white-space: nowrap;
+        overflow: hidden;
+       
     }
+  
 }

@@ -1,7 +1,8 @@
 "use client";
 import React from 'react';
 import { Link as ScrollLink } from "react-scroll";
-import './header.css';
+// import './header.css';
+import "../app/style/header.css";
 
 
 const links = [
@@ -22,7 +23,16 @@ const links = [
     },
 ]
 
-const Nav = ({ containerStyles, listStyles, linkStyles, spy }) => {
+interface Styling {
+    containerStyles : string,
+    listStyles  : string , 
+    linkStyles : string ,
+    spy : boolean
+}
+
+
+
+const Nav : React.FC<Styling> = ({ containerStyles, listStyles, linkStyles, spy }) => {
     return (
         <nav className={containerStyles}>
             <ul className={listStyles}>

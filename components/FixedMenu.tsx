@@ -4,7 +4,8 @@ import { useEffect, useState } from 'react';
 import { CgMenuGridR } from "react-icons/cg";
 import MediaQuery, { useMediaQuery } from 'react-responsive';
 import { FiMapPin, FiPhoneCall, FiMail } from "react-icons/fi";
-import "./fixed-menu.css";
+// import "./fixed-menu.css";
+import "../app/style/fixed-menu.css";
 
 // components
 import Nav from './Nav';

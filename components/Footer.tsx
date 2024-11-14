@@ -1,5 +1,5 @@
 import React from 'react';
-import "./contact.css";
+import "../app/style/contact.css";
 import Logo from './Logo';
 
 const Footer = () => {

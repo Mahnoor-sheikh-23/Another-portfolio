@@ -1,7 +1,15 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import { animate, motion } from "framer-motion";
 
-const RotatingShape = ({content , direction , duration}) => {
+
+interface Types {
+  content : ReactElement,
+  direction : string ,
+  duration : number
+}
+
+
+const RotatingShape : React.FC<Types> = ({content , direction , duration}) => {
     // define the rotation animation
     const rotateAnimation = {
         animate : {
