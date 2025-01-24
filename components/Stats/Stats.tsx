@@ -16,7 +16,7 @@ const statsData = [
   {
     endCountNum: 95,
     endCountText: "%",
-    text: "Cients Satisfied"
+    text: "Teachers Satisfied"
   },
 ]
 

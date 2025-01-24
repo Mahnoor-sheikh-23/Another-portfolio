@@ -21,16 +21,16 @@ const data = [
     title: "Resume Builder"
   },
   {
-    href: "https://real-runtime-calculator.netlify.app/",
+    href: "https://shoe-nike-figma-hackathon.netlify.app/",
     category: "frontend",
-    img: "/heroSectionImage/calculator_icon.svg",
-    title: "Calculator "
+    img: "/heroSectionImage/nike.png",
+    title: "NIke E-commerce WEbsite "
   },
   {
-    href: "https://comfy-lollipop-08e6b3.netlify.app/",
+    href: "https://perfume-web-sites.netlify.app/",
     category: "frontend",
-    img: "/heroSectionImage/vase-scaled.jpg",
-    title: "Event Planner "
+    img: "/heroSectionImage/image.png",
+    title: "Perfume Wedsite "
   },
   {
     href: "https://portfolio-website-of-mahnoor.netlify.app/",

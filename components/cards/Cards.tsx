@@ -60,14 +60,6 @@ const journey = [
   },
   {
     type: "education",
-    instution: "Design Institute ",
-    logoUrl: "https://static.vecteezy.com/system/resources/thumbnails/004/297/596/small_2x/education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector.jpg",
-    qualification: "web developer BootCamp ",
-    duration: "Jun 2022 - Present",
-    description: "Learned full-stack development concepts focusing ono React, Node.js and APIs.completed hands-on projects to solidfy skills  "
-  },
-  {
-    type: "education",
     instution: "Bussiness School",
     logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ-CLlX2iFgOTGiL34ONMa0RGgY_taQFU0iA&s",
     qualification: "Matriculation",
